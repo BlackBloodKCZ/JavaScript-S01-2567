@@ -12,7 +12,7 @@ class Dog {
     }
 }
 
-const myDog = new Dong("Buster");
+const myDog = new Dog("Buster");
 myDog.introduce;
 
-Dong.bark;
+Dog.bark;
