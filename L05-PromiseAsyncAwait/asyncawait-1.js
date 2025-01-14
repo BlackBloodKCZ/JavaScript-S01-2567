@@ -9,7 +9,9 @@ async function run() {
     console.log("Start!!");
     // try take of await and compare
     await promiseTimeout(2000);
-    console.log.apply("Stop!!");
+    console.log("Stop!!");
 }
 
+console.log('Before run');
 run();
+console.log('After run');
